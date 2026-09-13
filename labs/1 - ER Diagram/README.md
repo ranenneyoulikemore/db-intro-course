@@ -164,12 +164,13 @@
 
 ### **Пояснення зв'язків прозою:** 
 
-1. Customer — Order (Один до багатьох): Один клієнт може оформити безліч замовлень, але кожне конкретне замовлення належить виключно одному клієнту. 
+1. Customer — Order (Один до багатьох): Один клієнт може оформити безліч замовлень, але кожне конкретне замовлення належить виключно одному клієнту.
+2. Order — Book (Багато до багатьох): Одне замовлення може містити кілька різних книг, а одна книга може фігурувати в багатьох замовленнях. Цей зв'язок реалізується через асоціативну сутність OrderItem.
+3. Book — Author (Багато до багатьох): Книга може мати кількох авторів, а автор — написати кілька книг. Зв'язок реалізується через асоціативну сутність BookAuthor.
+4. Publisher — Book (Один до багатьох): Одне видавництво випускає багато книг, але кожна книга видана лише одним конкретним видавництвом.
+5. Category — Book (Один до багатьох): Одна категорія може містити безліч книг, але кожна книга належить лише до однієї категорії.
+6. Customer — Book через Review (Багато до багатьох): Клієнт може залишити відгуки на кілька придбаних книг, а книга може мати відгуки від різних клієнтів. Зв'язок реалізовано через сутність Review.
 
-
-
-<!-- Start of picture text -->
-CategorylD(PK)<br>NameCategory<br>OrderID(PKCceal°K) OrderltemID{PK) '<br>| Panes OrderT0(FK} S00KID (PK) ‘ PublisherlO{Px)<br>d ee 4 pookiDXFK) b Categoryid (FK) P temaPublishor<br>Quantity PublisherID (FK) caey<br>PriceatPurchase ‘owtTitle<br>CustomerID wir Publication’me<br>a Customer ID(FK)<br>Lastname Siegal oe<br>Email iskComment r<br>RegistrationDate a<br>es I<br>BookiD (PK, FX)<br>AuthorlO(PK, Fx)<br>Authorl0 (PK)<br>FirstName<br>LastName<br>Country<br><!-- End of picture text -->
 
 <img width="1620" height="707" alt="Снимок экрана 2026-09-13 142443" src="https://github.com/user-attachments/assets/b3a06a29-3ded-4330-beb1-597a1167ba9a" />
 
