@@ -171,6 +171,8 @@
 <!-- Start of picture text -->
 CategorylD(PK)<br>NameCategory<br>OrderID(PKCceal°K) OrderltemID{PK) '<br>| Panes OrderT0(FK} S00KID (PK) ‘ PublisherlO{Px)<br>d ee 4 pookiDXFK) b Categoryid (FK) P temaPublishor<br>Quantity PublisherID (FK) caey<br>PriceatPurchase ‘owtTitle<br>CustomerID wir Publication’me<br>a Customer ID(FK)<br>Lastname Siegal oe<br>Email iskComment r<br>RegistrationDate a<br>es I<br>BookiD (PK, FX)<br>AuthorlO(PK, Fx)<br>Authorl0 (PK)<br>FirstName<br>LastName<br>Country<br><!-- End of picture text -->
 
+<img width="1620" height="707" alt="Снимок экрана 2026-09-13 142443" src="https://github.com/user-attachments/assets/b3a06a29-3ded-4330-beb1-597a1167ba9a" />
+
 ### **Припущення та обмеження:** 
 
 Під час проектування було визначено наступні бізнес-правила та обмеження атрибутів: 
